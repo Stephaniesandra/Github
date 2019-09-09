@@ -36,6 +36,26 @@ img {
     height: auto; /* Højden skal tilpasse sig */
 }
 
+.boks {
+    background-color: lightpink;
+    border: palevioletred dashed 4px;
+    height: 200px;
+    width: 100px;
+    margin: 100px auto auto;
+    color: darkslategrey;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 14px;
+    border-radius: 0 20% 0 20%;
+}
+
+.boks:hover {
+    background-color: lightslategray;
+    color: yellow;
+    border: lightgray dotted;
+    border-radius: 20% 0 20% 0;
+}
+
 @media screen and (min-width: 768px) {
     /* Alt der ændres i tablet stående fra mobil */
 }
